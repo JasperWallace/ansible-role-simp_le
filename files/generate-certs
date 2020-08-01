@@ -12,7 +12,8 @@ import sys
 
 _GENERATED_FILES = [
     "account_key.json", "fullchain.pem",
-    "key.pem", "cert.pem", "chain.pem"
+    "key.pem", "cert.pem", "chain.pem",
+    "account_reg.json",
 ]
 
 def create_certkey(output_dir):

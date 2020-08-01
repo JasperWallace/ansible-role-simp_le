@@ -4,7 +4,8 @@
 # simp_le_vhosts:
 
 simp_le_repo: "https://github.com/zenhack/simp_le/"
-simp_le_version: "0.18.1"
+# XXX "0.18.1"
+simp_le_version: "4471fd5a994ca4213dc804713abd1187e4cab90a"
 simp_le_cache: "/home/{{ansible_user_id}}/.cache/ansible-simp_le"
 simp_le_dest: "{{simp_le_cache}}/simp_le"
 
@@ -18,6 +19,6 @@ simp_le_dependencies:
   - "python-virtualenv"
 
 simp_le_python_dependencies:
-  - "setuptools"
-  - "pip"
-  - "wheel"
+  - "setuptools==40.0.0"
+  - "pip==19.1"
+  - "wheel==0.33.6"
